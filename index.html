@@ -1,120 +1,432 @@
 <!DOCTYPE html>
 <html lang="mr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>सलादे बाबा प्रतिष्ठान</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salade Baba Pratishthan</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
+
 <body>
 
-<nav>
-<div class="logo">सलादे बाबा प्रतिष्ठान</div>
+<!--========== LOADER ==========-->
+
+<div id="loader">
+    <div class="spinner"></div>
+</div>
+
+<!--========== HEADER ==========-->
+
+<header>
+
+<div class="logo">
+
+<img src="images/logo.png" alt="Logo">
+
+<h2>Salade Baba Pratishthan</h2>
+
+</div>
+
+<nav id="navbar">
 
 <ul>
-<li><a href="#home">मुख्यपृष्ठ</a></li>
-<li><a href="#about">संस्थेबद्दल</a></li>
-<li><a href="#team">पदाधिकारी</a></li>
-<li><a href="#gallery">गॅलरी</a></li>
-<li><a href="#contact">संपर्क</a></li>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#services">Services</a></li>
+
+<li><a href="#gallery">Gallery</a></li>
+
+<li><a href="#donate">Donate</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
 </ul>
 
 </nav>
 
-<header id="home" class="hero">
+<div class="menu-btn">
 
-<div class="overlay">
-
-<h1>सलादे बाबा प्रतिष्ठान</h1>
-
-<h3>वडनेर भैरव, ता. चांदवड, जि. नाशिक</h3>
-
-<p>
-समाजसेवा • पर्यावरण • शिक्षण • संस्कृती
-</p>
-
-<a href="#about" class="btn">अधिक जाणून घ्या</a>
+<i class="fas fa-bars"></i>
 
 </div>
 
 </header>
 
-<section id="about">
+<!--========== HERO ==========-->
 
-<h2>संस्थेबद्दल</h2>
+<section class="hero" id="home">
+
+<div class="slider">
+
+<div class="slide active">
+
+<img src="images/slider1.jpg">
+
+</div>
+
+<div class="slide">
+
+<img src="images/slider2.jpg">
+
+</div>
+
+<div class="slide">
+
+<img src="images/slider3.jpg">
+
+</div>
+
+</div>
+
+<div class="hero-content">
+
+<h1>Welcome To Salade Baba Pratishthan</h1>
 
 <p>
-सलादे बाबा प्रतिष्ठान ही सामाजिक, शैक्षणिक, सांस्कृतिक आणि पर्यावरण संवर्धनासाठी कार्य करणारी संस्था आहे.
+Serving Humanity With Love ❤️
 </p>
 
-<h3>ध्येय व उद्देश</h3>
+<div class="hero-btn">
 
-<ul>
+<a href="#about" class="btn">
+Know More
+</a>
 
-<li>🌳 वृक्षारोपण, वृक्ष जतन व संवर्धन</li>
+<a href="#donate" class="btn2">
+Donate Now
+</a>
 
-<li>📚 शैक्षणिक उपक्रम</li>
+</div>
 
-<li>🎭 कला, क्रीडा व सांस्कृतिक कार्यक्रम</li>
-
-<li>🌾 कृषी क्षेत्रातील मान्यवरांचा गौरव</li>
-
-<li>🤝 सामाजिक सेवा</li>
-
-</ul>
+</div>
 
 </section>
 
-<section id="team">
+<!--========== FEATURES ==========-->
 
-<h2>संस्थापक</h2>
+<section class="features">
 
-<p><b>श्री. सुरेश माधवराव सलादे सर</b></p>
+<div class="card">
 
-<h2>पदाधिकारी</h2>
+<i class="fas fa-hands-helping"></i>
 
-<ul>
+<h3>Social Work</h3>
 
-<li>अध्यक्ष : श्री मनोहर नाना पाटोळे</li>
+<p>
+Helping needy people through different activities.
+</p>
 
-<li>उपाध्यक्ष : श्री रामचंद्र गोविंदराव मोरे</li>
+</div>
 
-<li>सरचिटणीस : श्री राहुल भिकाजी पाचोरकर</li>
+<div class="card">
 
-<li>कायदेशीर सल्लागार : ॲड. पोपटराव पवार</li>
+<i class="fas fa-tree"></i>
 
-</ul>
+<h3>Environment</h3>
+
+<p>
+Tree plantation and nature conservation programs.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fas fa-book"></i>
+
+<h3>Education</h3>
+
+<p>
+Supporting education for children.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fas fa-heart"></i>
+
+<h3>Healthcare</h3>
+
+<p>
+Health awareness and medical camps.
+</p>
+
+</div>
+
+  </section>
+  <!-- ================= ABOUT ================= -->
+
+<section class="about" id="about">
+
+<div class="container">
+
+<div class="about-image">
+<img src="images/about.jpg" alt="About">
+</div>
+
+<div class="about-content">
+
+<h2>About Salade Baba Pratishthan</h2>
+
+<p>
+Salade Baba Pratishthan is dedicated to serving society through education, healthcare, environmental conservation, blood donation camps, food distribution, and social welfare activities.
+</p>
+
+<a href="#" class="btn">Read More</a>
+
+</div>
+
+</div>
 
 </section>
 
-<section id="gallery">
+<!-- ================= COUNTERS ================= -->
 
-<h2>फोटो गॅलरी</h2>
+<section class="counter-section">
 
-<p>लवकरच येथे प्रतिष्ठानचे सर्व फोटो दिसतील.</p>
+<div class="counter-box">
+<h2 class="counter" data-target="5000">0</h2>
+<p>People Helped</p>
+</div>
+
+<div class="counter-box">
+<h2 class="counter" data-target="120">0</h2>
+<p>Events</p>
+</div>
+
+<div class="counter-box">
+<h2 class="counter" data-target="300">0</h2>
+<p>Volunteers</p>
+</div>
+
+<div class="counter-box">
+<h2 class="counter" data-target="50">0</h2>
+<p>Projects</p>
+</div>
 
 </section>
 
-<section id="contact">
+<!-- ================= MISSION ================= -->
 
-<h2>संपर्क</h2>
+<section class="mission">
 
-<p>सलादे बाबा प्रतिष्ठान</p>
+<h2>Our Mission</h2>
 
-<p>वडनेर भैरव, ता. चांदवड, जि. नाशिक</p>
+<p>
+To create a better society by helping people, protecting nature,
+supporting education and healthcare, and inspiring positive social change.
+</p>
 
 </section>
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services" id="services">
+
+<h2>Our Services</h2>
+
+<div class="service-grid">
+
+<div class="service-card">
+<i class="fas fa-seedling"></i>
+<h3>Tree Plantation</h3>
+<p>Growing a greener future.</p>
+</div>
+
+<div class="service-card">
+<i class="fas fa-hand-holding-heart"></i>
+<h3>Food Distribution</h3>
+<p>Helping needy families.</p>
+</div>
+
+<div class="service-card">
+<i class="fas fa-tint"></i>
+<h3>Blood Donation</h3>
+<p>Saving lives through donation.</p>
+</div>
+
+<div class="service-card">
+<i class="fas fa-user-graduate"></i>
+<h3>Education</h3>
+<p>Supporting students with educational resources.</p>
+</div>
+
+<div class="service-card">
+<i class="fas fa-notes-medical"></i>
+<h3>Medical Camps</h3>
+<p>Free health check-up camps.</p>
+</div>
+
+<div class="service-card">
+<i class="fas fa-hands-helping"></i>
+<h3>Social Welfare</h3>
+<p>Helping people through social initiatives.</p>
+</div>
+
+</div>
+
+
+  </section>
+  <!-- ================= GALLERY ================= -->
+
+<section class="gallery" id="gallery">
+
+<h2>Our Gallery</h2>
+
+<div class="gallery-grid">
+
+<div class="gallery-item">
+<img src="images/gallery/g1.jpg" alt="">
+</div>
+
+<div class="gallery-item">
+<img src="images/gallery/g2.jpg" alt="">
+</div>
+
+<div class="gallery-item">
+<img src="images/gallery/g3.jpg" alt="">
+</div>
+
+<div class="gallery-item">
+<img src="images/gallery/g4.jpg" alt="">
+</div>
+
+<div class="gallery-item">
+<img src="images/gallery/g5.jpg" alt="">
+</div>
+
+<div class="gallery-item">
+<img src="images/gallery/g6.jpg" alt="">
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= LATEST NEWS ================= -->
+
+<section class="news">
+
+<h2>Latest News</h2>
+
+<div class="news-box">
+
+<h3>🌳 Tree Plantation Drive</h3>
+
+<p>
+Join our upcoming plantation campaign and help us make our environment greener.
+</p>
+
+</div>
+
+<div class="news-box">
+
+<h3>🩸 Blood Donation Camp</h3>
+
+<p>
+A free blood donation camp will be organized next month. Everyone is welcome.
+</p>
+
+</div>
+
+<div class="news-box">
+
+<h3>📚 Educational Support</h3>
+
+<p>
+Scholarship and educational material distribution for needy students.
+</p>
+
+</div>
+
+</section>
+
+<!-- ================= DONATION ================= -->
+
+<section class="donate" id="donate">
+
+<h2>Support Our Mission</h2>
+
+<p>
+
+Your donation helps us continue our social work.
+
+</p>
+
+<a href="#" class="btn">
+Donate Now
+</a>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="tel" placeholder="Mobile Number">
+
+<textarea rows="6" placeholder="Write your message"></textarea>
+
+<button type="submit">
+Send Message
+</button>
+
+</form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
 
 <footer>
 
-<p>© 2026 सलादे बाबा प्रतिष्ठान | सर्व हक्क राखीव</p>
+<h3>Salade Baba Pratishthan</h3>
+
+<p>
+Serving Humanity With Love ❤️
+</p>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+<a href="#"><i class="fab fa-whatsapp"></i></a>
+
+</div>
+
+<p>
+
+© 2026 Salade Baba Pratishthan | All Rights Reserved.
+
+</p>
 
 </footer>
 
 <script src="script.js"></script>
 
 </body>
-</html>
 
+  </html>
+  
