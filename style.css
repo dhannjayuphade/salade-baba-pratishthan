@@ -623,3 +623,39 @@ body.dark textarea{
 #topBtn:hover{
     background:#e55d00;
     }
+
+body{
+    background:#F8F9FA;
+    color:#333;
+}
+
+header{
+    background:#0D6EFD;
+    color:#fff;
+}
+
+section{
+    background:#fff;
+    border-radius:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    padding:20px;
+    margin:20px 0;
+}
+
+h1,h2,h3{
+    color:#0B5ED7;
+}
+
+.btn{
+    background:#198754;
+    color:#fff;
+    border:none;
+}
+
+.btn:hover{
+    background:#157347;
+}
+
+.highlight{
+    color:#FFC107;
+}
